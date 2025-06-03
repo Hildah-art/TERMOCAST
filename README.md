@@ -2,28 +2,27 @@ TermoCast CLI 🌤
 
 TermoCast is a lightweight Command Line Interface (CLI) weather application built with Python. It uses SQLAlchemy for managing weather data storage in a local SQLite database and Click for a beautiful and user-friendly CLI.
 
----
 
-## 🚀 Features
+🚀 Features
 
-- Add weather entries for a city with temperature and description.
-- View all stored weather logs.
-- Filter weather data by city.
-- Update or delete weather records.
-- Clean and simple terminal interface.
-
----
-
-## 🛠 Tech Stack
-
-- *Python 3.10+*
-- *SQLAlchemy* for ORM
-- *SQLite* as the database
+ Add weather entries for a city with temperature and description.
+ View all stored weather logs.
+ Filter weather data by city.
+ Update or delete weather records.
+ Clean and simple terminal interface.
 
 
 
+🛠 Tech Stack
 
-## 📁 Project Structure
+ *Python
+ *SQLAlchemy for ORM
+ *SQLite as the databse
+
+
+
+
+ 📁 Project Structure
 .
 ├── LICENSE
 ├── Pipfile
@@ -46,11 +45,10 @@ TermoCast is a lightweight Command Line Interface (CLI) weather application buil
     ├── seed.py
     └── weather.db
 
-## 🧑‍💻 Installation
+ 🧑‍💻 Installation
 
-1. *Clone the Repository*
 
-```bash
+
 git clone https://github.com/your-username/termocast-cli.git
 cd termocast-cli
 
@@ -84,8 +82,6 @@ Delete a record
 
 python cli.py delete --id 1
 
-
----
 
 📌 Notes
 
