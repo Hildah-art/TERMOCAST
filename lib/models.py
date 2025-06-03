@@ -22,9 +22,11 @@ class Location(Base):
 
     id = Column(Integer, primary_key=True)
     name = Column(String, nullable=False)
-    country = Column(String, nullable=False)
-    region = Column(String)
-    description = Column(String)
+    date = Column(String, nullable=False)
+    temperature = Column(Float)
+    humidity = Column(Integer)
+    wind_speed = Column(Float)
+    condition = Column(String)
     
     weather_records = relationship("WeatherRecord", back_populates="location")
     
